@@ -1,5 +1,10 @@
+import Dashboard from "./dashboard/page";
+
 export default function Home() {
   return (
-    <div>Home</div>
+    <>
+    <div>SHOP YANGU</div>
+    <Dashboard />
+    </>
   );
 }
