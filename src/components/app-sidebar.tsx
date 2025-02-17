@@ -14,25 +14,25 @@ import {
 // Menu items.
 const items = [
   {
-    title: "Home",
-    url: "#",
+    title: "DashBoard",
+    url: "/dashboard",
     icon: Home,
   },
   {
-    title: "Inbox",
+    title: "Shops",
     url: "#",
     icon: Inbox,
   },
   {
-    title: "Calendar",
+    title: "Products",
     url: "#",
     icon: Calendar,
   },
-  {
-    title: "Search",
-    url: "#",
-    icon: Search,
-  },
+  // {
+  //   title: "Search",
+  //   url: "#",
+  //   icon: Search,
+  // },
   {
     title: "Settings",
     url: "#",
