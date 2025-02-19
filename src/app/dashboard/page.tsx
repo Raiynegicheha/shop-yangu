@@ -15,13 +15,10 @@
 
 
 
-// src/dashboard/page.tsx
 import React from 'react';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'; // Import Shadcn components
-// import { Chart } from 'react-chartjs-2'; // Assuming you're using Chart.js for the chart
 import { Chart, registerables } from 'chart.js'; // Import Chart.js and registerables
 import { Bar } from 'react-chartjs-2'; // Use Bar component from react-chartjs-2
-// import './Dashboard.css'; // Optional: Additional CSS if needed
 
 Chart.register(...registerables);
 
