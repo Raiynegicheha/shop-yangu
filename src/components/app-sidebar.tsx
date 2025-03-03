@@ -28,11 +28,11 @@ const items = [
     url: "/products",
     icon: Calendar,
   },
-  // {
-  //   title: "Search",
-  //   url: "#",
-  //   icon: Search,
-  // },
+  {
+    title: "Search",
+    url: "#",
+    icon: Search,
+  },
   {
     title: "Settings",
     url: "#",
